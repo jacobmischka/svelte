@@ -32,7 +32,7 @@
     "pretest": "npm run build",
     "posttest": "agadoo src/internal/index.js",
     "prepublishOnly": "export PUBLISH=true && npm run lint && npm test",
-    "postinstall": "npm i && npm run build"
+    "install": "npm i && npm run build"
   },
   "repository": {
     "type": "git",
